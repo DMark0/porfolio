@@ -2,6 +2,7 @@
   font-family: "Kode Mono", monospace;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 
@@ -43,10 +44,13 @@ h1 {
   position: absolute;
   top: 50%;
   left: 50%;
+  width: 90%;
+  text-align: center;
   transform: translateX(-50%) translateY(-50%);
   z-index: 1;
   color: #e1f1f8;
   text-shadow: 0 0 8px #fff8;
+  font-size: min(2rem,7.5vw);
 }
 
 .c1 {
